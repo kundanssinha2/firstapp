@@ -1,0 +1,11 @@
+<div class="col-sm-12">
+	<h1>Editing User</h1>
+</div>
+
+
+<br/>
+<div class="col-sm-6 text-right">
+<%= link_to 'Show', @user , class: "btn btn-rounded btn-space btn-primary" %>
+<%= link_to 'Back', users_path , class: "btn btn-rounded btn-space btn-primary" %>
+</div>
+<%= render 'form', user: @user %>

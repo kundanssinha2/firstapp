@@ -1,0 +1,21 @@
+<style>
+	.backto a{
+		background-color: #8842f4;
+		border-color: #8842f4;
+		color: #FFF;
+		box-shadow: 0 1px 0 rgba(0,0,0,.05);
+		border: 1px solid transparent;
+		padding: 4px 34px;
+		font-size: 1rem;
+		line-height: 50px;
+		border-radius: 2px;
+	}
+</style>
+<div class="col-sm-6 backto">
+	<h1 class="page-head-title">New User</h1>
+</div>
+
+<%= render 'form', user: @user %>
+<div class="col-sm-6 backto">
+	<%= link_to 'Back', users_path  %>
+</div>
